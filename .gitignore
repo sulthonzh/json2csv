@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+*.tsbuildinfo
+
+# test
+coverage/
+.nyc_output/
+
+# env
+.env
+.env.local
+.env*.local
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# package
+*.tgz
