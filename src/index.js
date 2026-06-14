@@ -41,7 +41,7 @@ function parseInput(input) {
   try {
     const parsed = JSON.parse(trimmed);
     if (Array.isArray(parsed)) return parsed;
-    return [parsed]; // single object
+    return [parsed];
   } catch {}
   // Try JSONL (one JSON per line)
   const lines = trimmed.split("\n").filter(l => l.trim());

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 "use strict";
-const { parseArgs, convert, formatCSV, escapeCSV, flatten, getHeaders } = require("./src/index");
+const { parseArgs, convert } = require("./src/index");
 const fs = require("fs");
 const path = require("path");
 
