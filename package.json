@@ -3,9 +3,26 @@
   "version": "1.0.0",
   "description": "Convert JSON and JSONL to CSV from the command line. Zero dependencies.",
   "main": "src/index.js",
-  "bin": { "json2csv": "./cli.js" },
-  "scripts": { "test": "node --test tests/" },
-  "keywords": ["json", "csv", "jsonl", "convert", "cli"],
+  "bin": {
+    "json2csv": "./cli.js"
+  },
+  "files": [
+    "src/",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "jsonl",
+    "convert",
+    "cli"
+  ],
   "author": "sulthonzh",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
