@@ -1,5 +1,5 @@
 {
-  "name": "json2csv",
+  "name": "@quadbyte/json2csv",
   "version": "1.0.0",
   "description": "Convert JSON and JSONL to CSV from the command line. Zero dependencies.",
   "main": "src/index.js",
