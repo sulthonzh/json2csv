@@ -32,3 +32,8 @@ Thumbs.db
 
 # package
 *.tgz
+# Python patterns
+__pycache__/
+.venv/
+*.egg-info/
+.mypy_cache/
